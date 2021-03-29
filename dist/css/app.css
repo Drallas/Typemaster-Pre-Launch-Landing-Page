@@ -47,6 +47,10 @@ img {
   font-weight: 500;
 }
 
+.footer {
+  margin: 6rem 0 0 3.1875rem;
+}
+
 body {
   font-family: "Barlow", sans-serif;
   background-color: white;
