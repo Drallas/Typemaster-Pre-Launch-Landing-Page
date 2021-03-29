@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 23px 1.5rem 4rem 1.5rem ;
+  
+  &__logo {
+    align-self: center;
+  }
+
+  &__button {
+    align-self: center;
+    background-color: $light-blue;
+    width: 9.4375rem;
+    height: 48px;
+    border-radius: 0.5rem;
+    color: $dark-blue;
+    text-transform: uppercase;
+    padding: 0.6875rem 0.8438rem;
+    line-height: 1.625rem;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+}
