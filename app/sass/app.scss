@@ -1,5 +1,6 @@
 // Importing files
 @import "abstracts/variables";
+@import "abstracts/mixins";
 @import "layout/grid";
 @import "core/reset";
 @import "core/typography";
@@ -15,4 +16,6 @@ body {
     background-color: $real-white;
 }
 
-
+.wrapper {
+    overflow-x: hidden;
+}

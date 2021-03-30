@@ -5,6 +5,12 @@
     display: none;
   }
 
+  &__keyboard-mobile {
+    visibility: visible;
+    border-radius: 15px;
+    margin-left: 24px;
+  }
+
   &__keyboard-tablet {
     visibility: hidden;
     display: none;
@@ -22,7 +28,6 @@
   }
 
   &__button:hover {
-      background-color: $light-orange;
+    background-color: $light-orange;
   }
-
 }
