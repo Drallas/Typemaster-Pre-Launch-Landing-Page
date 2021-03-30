@@ -1,0 +1,16 @@
+.intro {
+  &__image-mobile {
+    visibility: visible;
+    display: block;
+  }
+
+  &__image-tablet {
+    visibility: hidden;
+    display: none;
+  }
+
+  &__image-desktop {
+    visibility: hidden;
+    display: none;
+  }
+}

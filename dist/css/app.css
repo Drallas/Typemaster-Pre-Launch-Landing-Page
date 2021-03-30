@@ -56,6 +56,21 @@ img {
   display: none;
 }
 
+.intro__image-mobile {
+  visibility: visible;
+  display: block;
+}
+
+.intro__image-tablet {
+  visibility: hidden;
+  display: none;
+}
+
+.intro__image-desktop {
+  visibility: hidden;
+  display: none;
+}
+
 .header {
   display: flex;
   justify-content: space-between;

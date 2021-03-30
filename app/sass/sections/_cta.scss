@@ -1,19 +1,17 @@
 .cta {
-    // Pattern Square for the Desktop Layout 
-    &__pattern-square {
-        visibility: hidden;
-        display: none;
-    }
+  // Pattern Square for the Desktop Layout
+  &__pattern-square {
+    visibility: hidden;
+    display: none;
+  }
 
-    &__keyboard-tablet {
-        visibility: hidden;
-        display: none;
-    }
+  &__keyboard-tablet {
+    visibility: hidden;
+    display: none;
+  }
 
-    &__keyboard-desktop {
-        visibility: hidden;
-        display: none;
-    }
+  &__keyboard-desktop {
+    visibility: hidden;
+    display: none;
+  }
 }
-
-
