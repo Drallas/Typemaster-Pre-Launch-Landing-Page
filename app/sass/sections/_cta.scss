@@ -14,4 +14,15 @@
     visibility: hidden;
     display: none;
   }
+
+  &__button {
+    @extend %button-mobile;
+    background-color: $dark-orange;
+    color: $real-white;
+  }
+
+  &__button:hover {
+      background-color: $light-orange;
+  }
+
 }

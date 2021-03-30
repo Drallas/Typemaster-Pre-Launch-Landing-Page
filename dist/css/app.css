@@ -23,11 +23,13 @@ img {
   height: auto;
 }
 
-.header__button {
+.header__button, .cta__button {
   align-self: center;
+  cursor: pointer;
+  border: none;
   border-radius: 0.5rem;
   line-height: 1.625rem;
-  font-size: 1rem;
+  te: 1rem;
   font-weight: 600;
   text-transform: uppercase;
   width: 10.9375rem;
@@ -35,40 +37,10 @@ img {
   padding: 1.625rem 1rem;
 }
 
-.header__button {
+.header__button, .cta__button {
   width: 9.4375rem;
   height: 3rem;
   padding: 11px 13.5008px;
-}
-
-.cta__pattern-square {
-  visibility: hidden;
-  display: none;
-}
-
-.cta__keyboard-tablet {
-  visibility: hidden;
-  display: none;
-}
-
-.cta__keyboard-desktop {
-  visibility: hidden;
-  display: none;
-}
-
-.intro__image-mobile {
-  visibility: visible;
-  display: block;
-}
-
-.intro__image-tablet {
-  visibility: hidden;
-  display: none;
-}
-
-.intro__image-desktop {
-  visibility: hidden;
-  display: none;
 }
 
 .header {
@@ -89,6 +61,45 @@ img {
 .header__button:hover {
   background-color: #162441;
   color: white;
+}
+
+.cta__pattern-square {
+  visibility: hidden;
+  display: none;
+}
+
+.cta__keyboard-tablet {
+  visibility: hidden;
+  display: none;
+}
+
+.cta__keyboard-desktop {
+  visibility: hidden;
+  display: none;
+}
+
+.cta__button {
+  background-color: #f26818;
+  color: white;
+}
+
+.cta__button:hover {
+  background-color: #ff9b61;
+}
+
+.intro__image-mobile {
+  visibility: visible;
+  display: block;
+}
+
+.intro__image-tablet {
+  visibility: hidden;
+  display: none;
+}
+
+.intro__image-desktop {
+  visibility: hidden;
+  display: none;
 }
 
 .footer {

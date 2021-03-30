@@ -1,9 +1,11 @@
 // The default button properties
 %button-default {
     align-self: center;
+    cursor: pointer;
+    border: none;
     border-radius: 0.5rem;
     line-height: 1.625rem;
-    font-size: 1rem;
+    te: 1rem;
     font-weight: 600;
     text-transform: uppercase;
     width: 10.9375rem;
