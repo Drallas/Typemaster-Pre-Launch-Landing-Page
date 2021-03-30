@@ -41,6 +41,21 @@ img {
   padding: 11px 13.5008px;
 }
 
+.cta__pattern-square {
+  visibility: hidden;
+  display: none;
+}
+
+.cta__keyboard-tablet {
+  visibility: hidden;
+  display: none;
+}
+
+.cta__keyboard-desktop {
+  visibility: hidden;
+  display: none;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
