@@ -1,0 +1,21 @@
+// Mobile Grid Container
+.grid-container {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 100% 100% 100%;
+  gap: 50px;
+  grid-template-areas:
+    "cta_grid-area"
+    "intro-grid-area"
+    "features-grid-area";
+}
+
+.cta {
+  grid-area: cta_grid-area;
+}
+.intro {
+  grid-area: intro-grid-area;
+}
+.features {
+  grid-area: features-grid-area;
+}

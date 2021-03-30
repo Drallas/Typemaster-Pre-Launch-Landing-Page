@@ -1,4 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@500;600;700;900&display=swap");
+.grid-container {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 100% 100% 100%;
+  gap: 50px;
+  grid-template-areas: "cta_grid-area" "intro-grid-area" "features-grid-area";
+}
+
+.cta {
+  grid-area: cta_grid-area;
+}
+
+.intro {
+  grid-area: intro-grid-area;
+}
+
+.features {
+  grid-area: features-grid-area;
+}
+
 html {
   box-sizing: border-box;
   font-size: 1rem;
@@ -104,7 +124,7 @@ img {
 }
 
 .features__icon {
-  background-color: #F16718;
+  background-color: #f16718;
   width: 65px;
   height: 65px;
   border-radius: 16px;
