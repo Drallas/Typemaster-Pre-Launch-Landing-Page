@@ -29,7 +29,8 @@ img {
   border: none;
   border-radius: 0.5rem;
   line-height: 1.625rem;
-  te: 1rem;
+  font-style: normal;
+  font-size: 14px;
   font-weight: 600;
   text-transform: uppercase;
   width: 10.9375rem;
@@ -40,7 +41,7 @@ img {
 .header__button, .cta__button {
   width: 9.4375rem;
   height: 3rem;
-  padding: 11px 13.5008px;
+  padding: 11px 0.8438rem;
 }
 
 .header {
