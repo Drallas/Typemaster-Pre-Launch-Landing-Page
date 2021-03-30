@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@500;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@500;600;700;900&display=swap");
 html {
   box-sizing: border-box;
   font-size: 16px;
@@ -23,6 +23,24 @@ img {
   height: auto;
 }
 
+.header__button {
+  align-self: center;
+  border-radius: 0.5rem;
+  line-height: 1.625rem;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  width: 10.9375rem;
+  height: 3.625rem;
+  padding: 1.625rem 1rem;
+}
+
+.header__button {
+  width: 9.4375rem;
+  height: 3rem;
+  padding: 11px 13.5008px;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -34,17 +52,13 @@ img {
 }
 
 .header__button {
-  align-self: center;
   background-color: #e8eff2;
-  width: 9.4375rem;
-  height: 48px;
-  border-radius: 0.5rem;
   color: #162441;
-  text-transform: uppercase;
-  padding: 0.6875rem 0.8438rem;
-  line-height: 1.625rem;
-  font-size: 1rem;
-  font-weight: 500;
+}
+
+.header__button:hover {
+  background-color: #162441;
+  color: white;
 }
 
 .footer {

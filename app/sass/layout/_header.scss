@@ -8,16 +8,13 @@
   }
 
   &__button {
-    align-self: center;
+    @extend %button-mobile;
     background-color: $light-blue;
-    width: 9.4375rem;
-    height: 48px;
-    border-radius: 0.5rem;
     color: $dark-blue;
-    text-transform: uppercase;
-    padding: 0.6875rem 0.8438rem;
-    line-height: 1.625rem;
-    font-size: 1rem;
-    font-weight: 500;
+  }
+
+  &__button:hover {
+    background-color: $dark-blue;
+    color: $real-white;
   }
 }
