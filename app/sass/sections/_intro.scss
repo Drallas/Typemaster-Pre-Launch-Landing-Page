@@ -1,16 +1,47 @@
 .intro {
-  &__image-mobile {
-    visibility: visible;
-    display: block;
+  &__images-mobile img {
+    height: 193px;
+    border-radius: 15px;
+    margin-right: 24px;
   }
 
-  &__image-tablet {
+  &__images-mobile img:first-child {
+    margin-left: -22px;
+  }
+
+  &__images-mobile {
+   visibility: hidden;
+  }
+
+  &__images-tablet {
     visibility: hidden;
     display: none;
   }
 
-  &__image-desktop {
+  &__images-desktop {
     visibility: hidden;
     display: none;
+  }
+
+  // Mobile needs to be behind @media too.
+  @media screen and (max-width: 767px) {
+    &__images-mobile {
+      visibility: visible;
+      display: flex;
+    }
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    &__images-tablet {
+      visibility: visible;
+      display: flex;
+    }
+  }
+
+  @media screen and (min-width: 1024px) {
+    &__images-desktop {
+      visibility: visible;
+      display: flex;
+    }
   }
 }

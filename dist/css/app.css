@@ -4,15 +4,10 @@ body {
   background-color: white;
 }
 
-.wrapper {
-  overflow-x: hidden;
-}
-
 .grid-container {
   display: grid;
   grid-template-columns: 100%;
   grid-template-rows: 100% 100% 100%;
-  gap: 15px;
   grid-template-areas: "cta_grid-area" "intro-grid-area" "features-grid-area";
 }
 
@@ -145,6 +140,7 @@ img {
   visibility: visible;
   border-radius: 0.9375rem;
   margin-left: 1.5rem;
+  margin-bottom: 24px;
 }
 
 .cta__keyboard-tablet {
@@ -157,19 +153,49 @@ img {
   display: none;
 }
 
-.intro__image-mobile {
-  visibility: visible;
-  display: block;
+.intro__images-mobile img {
+  height: 193px;
+  border-radius: 15px;
+  margin-right: 24px;
 }
 
-.intro__image-tablet {
+.intro__images-mobile img:first-child {
+  margin-left: -22px;
+}
+
+.intro__images-mobile {
+  visibility: hidden;
+}
+
+.intro__images-tablet {
   visibility: hidden;
   display: none;
 }
 
-.intro__image-desktop {
+.intro__images-desktop {
   visibility: hidden;
   display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .intro__images-mobile {
+    visibility: visible;
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .intro__images-tablet {
+    visibility: visible;
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .intro__images-desktop {
+    visibility: visible;
+    display: flex;
+  }
 }
 
 .features__icon {
@@ -184,4 +210,8 @@ img {
 
 .footer {
   margin: 6rem 0 0 3.1875rem;
+}
+
+.wrapper {
+  overflow-x: hidden;
 }

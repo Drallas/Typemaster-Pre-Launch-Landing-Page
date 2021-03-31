@@ -15,7 +15,7 @@
     <title>Frontend Mentor | Typemaster pre-launch landing page</title>
   </head>
   <body>
-    <class="wrapper">
+    <div class="wrapper">
       <header class="header">
         <div class="header__logo">
           <img src="/assets/shared/logo.svg" alt="Typemaster" />
@@ -25,7 +25,8 @@
 
       <main class="grid-container">
         <article class="cta">
-          <section class="cta__intro"><h1>Typemaster keyboard</h1>
+          <section class="cta__intro">
+            <h1>Typemaster keyboard</h1>
 
             <p class="cta__para">
               Improve your productivity and gaming without breaking the bank.
@@ -39,7 +40,6 @@
           </section>
 
           <section class="cta__images grid-item2">
-
             <!-- Mobile Image -->
             <img
               class="cta__keyboard-mobile"
@@ -67,15 +67,14 @@
               alt=""
               aria-hidden="true"
             />
-
           </section>
         </article>
 
         <!-- Typemaster Intro Centre -->
-        <article>
-          <section class="intro">
+        <article class="intro">
+          <section>
             <!-- Mobile Image Set -->
-            <div class="intro__image-mobile">
+            <div class="intro__images-mobile">
               <img
                 src="assets/mobile/image-phone-and-keyboard.jpg"
                 alt="Typemaster Keyboard and Phone"
@@ -87,7 +86,7 @@
             </div>
 
             <!-- Tablet Image Set -->
-            <div class="intro__image-tablet">
+            <div class="intro__images-tablet">
               <img
                 src="assets/tablet/image-phone-and-keyboard.jpg"
                 alt="Typemaster Keyboard and Phone"
@@ -99,7 +98,7 @@
             </div>
 
             <!-- Desktop Image Set -->
-            <div class="intro__image-desktop">
+            <div class="intro__images-desktop">
               <img
                 src="assets/desktop/image-phone-and-keyboard.jpg"
                 alt="Typemaster Keyboard and Phone"
@@ -111,7 +110,7 @@
             </div>
           </section>
 
-          <section class="intro__text grid-item4">
+          <section class="intro__text">
             <h2>Mechanical wireless keyboard</h2>
             <p>
               The Typemaster keyboard boasts top-notch build and practical
@@ -124,8 +123,14 @@
         <!-- Typemaster Features Section - Bottom -->
         <article class="features">
           <section>
-            <div class="features__icon"><img src="assets/shared/icon-compatible.svg" aria-hidden="true" alt=""></div>
-           
+            <div class="features__icon">
+              <img
+                src="assets/shared/icon-compatible.svg"
+                aria-hidden="true"
+                alt=""
+              />
+            </div>
+
             <h3>Highly compatible</h3>
             <p>
               Easy to use and works well with all major computer brands, gaming
@@ -135,9 +140,14 @@
           </section>
 
           <section>
-            <div class="features__icon"><img src="assets/shared/icon-bluetooth.svg" aria-hidden="true" alt=""></div>
-             
-            
+            <div class="features__icon">
+              <img
+                src="assets/shared/icon-bluetooth.svg"
+                aria-hidden="true"
+                alt=""
+              />
+            </div>
+
             <h3>Wireless with bluetooth</h3>
             <p>
               Powerful 2.4G RF technology allows you to connect the cordless
@@ -147,8 +157,14 @@
           </section>
 
           <section>
-            <div class="features__icon"><img src="assets/shared/icon-battery.svg" aria-hidden="true" alt=""></div>           
-            
+            <div class="features__icon">
+              <img
+                src="assets/shared/icon-battery.svg"
+                aria-hidden="true"
+                alt=""
+              />
+            </div>
+
             <h3>High capacity battery</h3>
             <p>
               Equipped with a long-lasting built-in battery, you’ll never have
@@ -158,7 +174,13 @@
           </section>
 
           <section>
-            <div class="features__icon"><img src="assets/shared/icon-light.svg" aria-hidden="true" alt=""></div>
+            <div class="features__icon">
+              <img
+                src="assets/shared/icon-light.svg"
+                aria-hidden="true"
+                alt=""
+              />
+            </div>
             <h3>RGB backlit modes</h3>
             <p>
               Choose from 4 backlight brightness levels and adjustable breathing
