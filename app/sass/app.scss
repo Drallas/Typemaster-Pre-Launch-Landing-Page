@@ -1,21 +1,12 @@
-// Importing files
 @import "abstracts/variables";
+@import "core/typography";
+@import "pages/home.scss";
 @import "abstracts/mixins";
 @import "layout/grid";
 @import "core/reset";
-@import "core/typography";
 @import "components/buttons";
 @import "layout/header";
 @import "sections/cta";
 @import "sections/intro";
 @import "sections/features";
 @import "layout/footer";
-
-body {
-    font-family: $barlow;
-    background-color: $real-white;
-}
-
-.wrapper {
-    overflow-x: hidden;
-}
