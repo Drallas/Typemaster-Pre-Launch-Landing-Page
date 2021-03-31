@@ -140,7 +140,7 @@ img {
   visibility: visible;
   border-radius: 0.9375rem;
   margin-left: 1.5rem;
-  margin-bottom: 24px;
+  margin-bottom: 1.5rem;
 }
 
 .cta__keyboard-tablet {
@@ -153,34 +153,33 @@ img {
   display: none;
 }
 
-.intro__images-mobile img {
-  height: 193px;
-  border-radius: 15px;
-  margin-right: 24px;
-}
-
-.intro__images-mobile img:first-child {
-  margin-left: -22px;
-}
-
 .intro__images-mobile {
-  visibility: hidden;
-}
-
-.intro__images-tablet {
-  visibility: hidden;
-  display: none;
-}
-
-.intro__images-desktop {
-  visibility: hidden;
   display: none;
 }
 
 @media screen and (max-width: 767px) {
   .intro__images-mobile {
-    visibility: visible;
     display: flex;
+    margin-bottom: 75px;
+  }
+  .intro__image-left {
+    background-image: linear-gradient(to bottom, rgba(242, 104, 24, 0.7), rgba(242, 104, 24, 0.7)), url(/assets/mobile/image-phone-and-keyboard.jpg);
+    width: 129px;
+    height: 193px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 12.0625rem;
+    border-radius: 0.9375rem;
+    margin-right: 1.5rem;
+    margin-left: -1.375rem;
+  }
+  .intro__image-right {
+    background-image: url(/assets/mobile/image-glass-and-keyboard.jpg);
+    width: 220px;
+    height: 193px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0.9375rem;
   }
 }
 

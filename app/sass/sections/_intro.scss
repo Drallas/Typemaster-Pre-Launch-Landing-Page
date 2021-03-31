@@ -1,36 +1,41 @@
 .intro {
-  &__images-mobile img {
-    height: 193px;
-    border-radius: 15px;
-    margin-right: 24px;
-  }
-
-  &__images-mobile img:first-child {
-    margin-left: -22px;
-  }
 
   &__images-mobile {
-   visibility: hidden;
-  }
-
-  &__images-tablet {
-    visibility: hidden;
     display: none;
   }
 
-  &__images-desktop {
-    visibility: hidden;
-    display: none;
-  }
 
   // Mobile needs to be behind @media too.
   @media screen and (max-width: 767px) {
+
     &__images-mobile {
-      visibility: visible;
       display: flex;
+      margin-bottom: 75px;
+    }
+
+    &__image-left {
+      background-image: linear-gradient(to bottom, hsla(22, 89%, 52%, 0.7), hsla(22, 89%, 52%, 0.7)), url(/assets/mobile/image-phone-and-keyboard.jpg);
+      width: 129px;
+      height: 193px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 12.0625rem;
+      border-radius: 0.9375rem;
+      margin-right: 1.5rem;
+      margin-left: -1.375rem;
+    }
+
+    &__image-right {
+      background-image: url(/assets/mobile/image-glass-and-keyboard.jpg);
+      width: 220px;
+      height: 193px;
+      background-repeat: no-repeat;
+      background-size: cover ;
+      border-radius: 0.9375rem;
     }
   }
 
+  // Tablet Version
   @media screen and (min-width: 768px) and (max-width: 1023px) {
     &__images-tablet {
       visibility: visible;
@@ -38,6 +43,7 @@
     }
   }
 
+  // Desktop version
   @media screen and (min-width: 1024px) {
     &__images-desktop {
       visibility: visible;
@@ -45,3 +51,5 @@
     }
   }
 }
+
+
