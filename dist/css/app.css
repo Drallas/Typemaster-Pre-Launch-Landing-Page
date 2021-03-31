@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@500;600;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800;900&display=swap");
 .grid-container {
   display: grid;
   grid-template-columns: 100%;
@@ -84,6 +84,49 @@ img {
   color: white;
 }
 
+.cta__intro h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 3rem;
+  color: #162441;
+  text-transform: uppercase;
+  text-align: left;
+  margin: 0 1.5rem 2rem 1.5rem;
+}
+
+.cta__para {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.625rem;
+  color: #7b8bad;
+  margin: 0 1.5rem 2rem 1.5rem;
+}
+
+.cta__footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 2.5625rem 4rem 1.5rem;
+}
+
+.cta__footer p {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.625rem;
+  color: #7b8bad;
+  text-transform: uppercase;
+  margin-left: 2rem;
+}
+
+.cta__button {
+  background-color: #f26818;
+  color: white;
+}
+
+.cta__button:hover {
+  background-color: #ff9b61;
+}
+
 .cta__pattern-square {
   visibility: hidden;
   display: none;
@@ -91,8 +134,8 @@ img {
 
 .cta__keyboard-mobile {
   visibility: visible;
-  border-radius: 15px;
-  margin-left: 24px;
+  border-radius: 0.9375rem;
+  margin-left: 1.5rem;
 }
 
 .cta__keyboard-tablet {
@@ -103,15 +146,6 @@ img {
 .cta__keyboard-desktop {
   visibility: hidden;
   display: none;
-}
-
-.cta__button {
-  background-color: #f26818;
-  color: white;
-}
-
-.cta__button:hover {
-  background-color: #ff9b61;
 }
 
 .intro__image-mobile {
