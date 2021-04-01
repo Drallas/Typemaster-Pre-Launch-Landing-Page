@@ -2,11 +2,10 @@
   display: flex;
   flex-direction: column;
   margin: 0 auto 0 auto;
-  max-width: 400px;
+  max-width: 25rem;
 
   &__intro {
-    margin-left: 24px ;
-    
+    margin-left: 24px;
   }
 
   &__intro h1 {
@@ -26,7 +25,7 @@
 
   &__footer {
     display: flex;
-    min-width: 310px;
+    min-width: 19.375rem;
     justify-content: space-around;
     align-items: center;
     margin: 0 2.5625rem 4rem 0rem;
@@ -51,49 +50,50 @@
     background-color: $light-orange;
   }
 
-  // Pattern Square for the Desktop Layout
-  &__pattern-square {
-    visibility: hidden;
-    display: none;
-  }
-
   &__image {
     background-image: url(/assets/mobile/image-keyboard.jpg);
-    width: 372px;
-    height: 331px;
+    width: 23.25rem;
+    height: 20.6875rem;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 0.9375rem;
     margin-left: 1.5rem;
     margin-bottom: 1.5rem;
   }
-  
 
   // Tablet Version
   @media screen and (min-width: 768px) and (max-width: 991px) {
-    
     flex-direction: row;
-    max-width: 800px;
-    
+    max-width: 50rem;
+    margin-bottom: 40px;
+
     &__intro {
       align-self: center;
-      max-width: 339px;
-      margin-right: 69px;
-      margin-left: 39px;
+      max-width: 21.1875rem;
+      margin-right: 4.3125rem;
+      margin-left: 2.4375rem;
     }
 
     &__para {
-      margin: 39px 0 39px 0;
+      margin: 2.4375rem 0 2.4375rem 0;
+    }
+
+    &__footer {
+      min-width: 21.1875rem;
+    }
+
+    &__button {
+      width: 10.9375rem ;
+      height: 3.625rem;
     }
 
     &__image {
       background-image: url(/assets/tablet/image-keyboard.jpg);
-      width: 478px;
-      height: 425px;
+      width: 29.875rem;
+      height: 26.5625rem;
       background-repeat: no-repeat;
       background-size: cover;
+      margin-bottom: 0;
     }
-
   }
-
 }

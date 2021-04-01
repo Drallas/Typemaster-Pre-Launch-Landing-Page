@@ -1,11 +1,6 @@
 .intro {
-
   max-width: 400px;
-  margin: 0 auto 0 auto ;
-
-  &__images-mobile {
-    display: none;
-  }
+  margin: 0 auto 0 auto;
 
   &__text h2 {
     text-align: center;
@@ -25,19 +20,22 @@
 
   // Mobile needs to be behind @media too.
   @media screen and (max-width: 47.9375rem) {
-
-    &__images-mobile {
+    &__images {
       display: flex;
       margin-bottom: 75px;
     }
 
     &__image-left {
-      background-image: linear-gradient(to bottom, hsla(22, 89%, 52%, 0.7), hsla(22, 89%, 52%, 0.7)), url(/assets/mobile/image-phone-and-keyboard.jpg);
+      background-image: linear-gradient(
+          to bottom,
+          hsla(22, 89%, 52%, 0.7),
+          hsla(22, 89%, 52%, 0.7)
+        ),
+        url(/assets/mobile/image-phone-and-keyboard.jpg);
       width: 8.0625rem;
       height: 12.0625rem;
       background-repeat: no-repeat;
       background-size: cover;
-      height: 12.0625rem;
       border-radius: 0.9375rem;
       margin-right: 1.5rem;
       margin-left: -1.375rem;
@@ -48,26 +46,61 @@
       width: 13.75rem;
       height: 12.0625rem;
       background-repeat: no-repeat;
-      background-size: cover ;
+      background-size: cover;
       border-radius: 0.9375rem;
     }
   }
 
   // Tablet Version
   @media screen and (min-width: 768px) and (max-width: 991px) {
-    &__images-tablet {
-      visibility: visible;
+    max-width: 50rem;
+    margin-bottom: 142px;
+
+    &__images {
+      display: flex;
+      margin-bottom: 72px;
+    }
+
+    &__image-left {
+      background-image: linear-gradient(
+          to bottom,
+          hsla(22, 89%, 52%, 0.7),
+          hsla(22, 89%, 52%, 0.7)
+        ),
+        url(/assets/tablet/image-phone-and-keyboard.jpg);
+      width: 214px;
+      height: 320px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      border-radius: 0.9375rem;
+      margin: 0 30px 0 39px;
+    }
+
+    &__image-right {
+      background-image: url(/assets/tablet/image-glass-and-keyboard.jpg);
+      width: 440px;
+      height: 320px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      border-radius: 0.9375rem;
+    }
+
+    &__text {
       display: flex;
     }
-  }
 
-  // Desktop version
-  @media screen and (min-width: 992px) {
-    &__images-desktop {
-      visibility: visible;
-      display: flex;
+    &__text h2 {
+      text-align: left;
+      margin-bottom: 0;
+    }
+
+    &__text p {
+      text-align: left;
+      margin-bottom: 0;
+    }
+
+    // Desktop version
+    @media screen and (min-width: 992px) {
     }
   }
 }
-
-

@@ -1,7 +1,6 @@
 .features {
-
   max-width: 400px;
-  margin: 0 auto 0 auto ;
+  margin: 0 auto 0 auto;
 
   &__block {
     display: flex;
@@ -10,8 +9,6 @@
     text-align: center;
     margin: 0 1.5rem;
   }
-
-  
 
   &__block h3 {
     font-weight: 800;
@@ -35,5 +32,34 @@
     width: 4.0625rem;
     height: 4.0625rem;
     border-radius: 1rem;
+  }
+
+  // Tablet Version
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+    max-width: 50rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+    &__block {
+      max-width: 281px;
+      margin: 0 69px 72px 0;
+      align-items: flex-start;
+    }
+
+    &__block h3 {
+      width: 215px;
+      text-align: left;
+      margin: 40px 0 24px 0;
+    }
+
+    &__block p {
+      width: 281px;
+      text-align: left;
+      margin: 0 0 24px 0;
+    }
   }
 }
