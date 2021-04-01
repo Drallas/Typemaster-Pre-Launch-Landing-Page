@@ -3,7 +3,7 @@
   justify-content: space-around;
   max-width: 400px;
   text-align: center;
-  margin: 23px auto 4rem auto ;
+  margin: 23px 24px 4rem 24px ;
 
 
   &__logo {
@@ -21,4 +21,13 @@
     background-color: $dark-blue;
     color: $real-white;
   }
+
+
+  // Tablet Version
+   @media screen and (min-width: 768px) and (max-width: 991px) {
+     justify-content: space-between;
+     max-width: 800px;
+     margin: 39px 40px 62px 39px ;
+   }
+
 }

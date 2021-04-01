@@ -73,7 +73,7 @@ img {
   justify-content: space-around;
   max-width: 400px;
   text-align: center;
-  margin: 23px auto 4rem auto;
+  margin: 23px 24px 4rem 24px;
 }
 
 .header__logo {
@@ -91,11 +91,23 @@ img {
   color: white;
 }
 
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .header {
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 39px 40px 62px 39px;
+  }
+}
+
 .cta {
   display: flex;
   flex-direction: column;
   margin: 0 auto 0 auto;
   max-width: 400px;
+}
+
+.cta__intro {
+  margin-left: 24px;
 }
 
 .cta__intro h1 {
@@ -105,7 +117,7 @@ img {
   color: #162441;
   text-transform: uppercase;
   text-align: left;
-  margin: 0 1.5rem 2rem 1.5rem;
+  margin: 0 1.5rem 2rem 0;
 }
 
 .cta__para {
@@ -113,7 +125,7 @@ img {
   font-weight: 400;
   line-height: 1.625rem;
   color: #7b8bad;
-  margin: 0 1.5rem 2rem 1.5rem;
+  margin: 0 1.5rem 2rem 0rem;
 }
 
 .cta__footer {
@@ -121,7 +133,7 @@ img {
   min-width: 310px;
   justify-content: space-around;
   align-items: center;
-  margin: 0 2.5625rem 4rem 1.5rem;
+  margin: 0 2.5625rem 4rem 0rem;
 }
 
 .cta__footer p {
@@ -147,7 +159,7 @@ img {
   display: none;
 }
 
-.cta .cta__image {
+.cta__image {
   background-image: url(/assets/mobile/image-keyboard.jpg);
   width: 372px;
   height: 331px;
@@ -156,6 +168,29 @@ img {
   border-radius: 0.9375rem;
   margin-left: 1.5rem;
   margin-bottom: 1.5rem;
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .cta {
+    flex-direction: row;
+    max-width: 800px;
+  }
+  .cta__intro {
+    align-self: center;
+    max-width: 339px;
+    margin-right: 69px;
+    margin-left: 39px;
+  }
+  .cta__para {
+    margin: 39px 0 39px 0;
+  }
+  .cta__image {
+    background-image: url(/assets/tablet/image-keyboard.jpg);
+    width: 478px;
+    height: 425px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }
 
 .intro {
@@ -267,7 +302,7 @@ img {
 }
 
 .footer {
-  max-width: 327px;
+  max-width: 400px;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.625rem;

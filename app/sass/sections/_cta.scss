@@ -1,10 +1,13 @@
 .cta {
-
   display: flex;
   flex-direction: column;
-  margin: 0 auto 0 auto ;
+  margin: 0 auto 0 auto;
   max-width: 400px;
-  
+
+  &__intro {
+    margin-left: 24px ;
+    
+  }
 
   &__intro h1 {
     font-size: 3rem;
@@ -13,12 +16,12 @@
     color: $dark-blue;
     text-transform: uppercase;
     text-align: left;
-    margin: 0 1.5rem 2rem 1.5rem;
+    margin: 0 1.5rem 2rem 0;
   }
 
   &__para {
     @include paragraph;
-    margin: 0 1.5rem 2rem 1.5rem;
+    margin: 0 1.5rem 2rem 0rem;
   }
 
   &__footer {
@@ -26,7 +29,7 @@
     min-width: 310px;
     justify-content: space-around;
     align-items: center;
-    margin: 0 2.5625rem 4rem 1.5rem;
+    margin: 0 2.5625rem 4rem 0rem;
   }
 
   &__footer p {
@@ -54,19 +57,43 @@
     display: none;
   }
 
-  .cta__image {
+  &__image {
     background-image: url(/assets/mobile/image-keyboard.jpg);
     width: 372px;
     height: 331px;
     background-repeat: no-repeat;
-    background-size: cover ;
+    background-size: cover;
     border-radius: 0.9375rem;
     margin-left: 1.5rem;
     margin-bottom: 1.5rem;
   }
+  
 
-  // Keyboard Image
-  &__keyboard-mobile {
+  // Tablet Version
+  @media screen and (min-width: 768px) and (max-width: 991px) {
     
+    flex-direction: row;
+    max-width: 800px;
+    
+    &__intro {
+      align-self: center;
+      max-width: 339px;
+      margin-right: 69px;
+      margin-left: 39px;
+    }
+
+    &__para {
+      margin: 39px 0 39px 0;
+    }
+
+    &__image {
+      background-image: url(/assets/tablet/image-keyboard.jpg);
+      width: 478px;
+      height: 425px;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
   }
+
 }
