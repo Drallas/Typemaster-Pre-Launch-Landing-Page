@@ -217,6 +217,9 @@ img {
 }
 
 .features__block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
   margin: 0 1.5rem;
 }
@@ -225,7 +228,6 @@ img {
   font-weight: 800;
   font-size: 1.5rem;
   line-height: 28px;
-  text-align: center;
   text-transform: uppercase;
   color: #162441;
   margin: 3rem 3.4375rem 1.5rem 3.4375rem;
@@ -240,15 +242,13 @@ img {
 }
 
 .features__icon {
-  position: relative;
-  left: 132.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #f26818;
   width: 65px;
   height: 65px;
   border-radius: 16px;
-  vertical-align: middle;
-  text-align: center;
-  display: table-cell;
 }
 
 .footer {
