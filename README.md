@@ -12,12 +12,11 @@ This is a solution to the [Typemaster Pre Launch challenge on Frontend Mentor](h
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 
 ## Overview
 
-This is the first project where i'm using sass ass css preprocessor, i'm sure it could have been done a bit more efficient. I'm still learning and happy 
+This is the first project where i'm using sass css preprocessor, i'm sure it could have been done (a bit) more efficient. I'm still learning and happy with the result so far. 
 
 ### The challenge
 
@@ -43,20 +42,13 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+- Preparing the build and drawing up a small plan of attack is very helpful building a frondend design.
+- Starting with the mobile and making sure it's good; before continuing with the other layouts is an efficient workflow.
+- SASS is usefull but it requires some time to get used to it and even more to utilise most of the features. 
 
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+My development is best served by building more projects like this, collect feedback and refine. For now i want to improve CSS / BEM / SASS and make sure that i keep on learning this craft. My focus areas are responsive layout and avoiding too much exact element properties. 
 
 ## Author
 

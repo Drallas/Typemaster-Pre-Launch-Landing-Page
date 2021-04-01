@@ -110,6 +110,10 @@ img {
     justify-content: space-between;
     margin: 3.4375rem auto 5.1875rem auto;
   }
+  .header__button {
+    width: 10.9375rem;
+    height: 3.625rem;
+  }
 }
 
 .cta {
