@@ -221,11 +221,17 @@ img {
   }
   .cta__intro {
     max-width: 27.8125rem;
-    margin: 65px 7.8125rem 65px 10.3125rem;
+    margin: 4.0625rem 7.8125rem 0 10.3125rem;
+  }
+  .cta__para {
+    margin: 1.5rem 0 2.5rem 0;
   }
   .cta__intro h1 {
-    font-size: 56px;
-    line-height: 56px;
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+  }
+  .cta__intro p {
+    font-size: 1.125rem;
   }
   .cta__footer {
     max-width: 27.8125rem;
@@ -366,7 +372,7 @@ img {
     height: 30rem;
     background-repeat: no-repeat;
     background-size: cover;
-    border-radius: 15px;
+    border-radius: 0.9375rem;
     margin: 0 30px 0 2.4375rem;
   }
   .intro__image-left:before {

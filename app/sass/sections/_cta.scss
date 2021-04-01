@@ -104,13 +104,20 @@
 
     &__intro {
       max-width: 27.8125rem;
-      margin: 65px 7.8125rem 65px 10.3125rem;
+      margin: 4.0625rem 7.8125rem 0 10.3125rem;
+    }
 
+    &__para {
+      margin: 1.5rem 0 2.5rem 0;
     }
 
     &__intro h1 {
-      font-size: 56px;
-      line-height: 56px;
+      font-size: 3.5rem;
+      line-height: 3.5rem;
+    }
+
+    &__intro p {
+      font-size: 1.125rem;
     }
 
     &__footer {
