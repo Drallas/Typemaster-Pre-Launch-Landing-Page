@@ -160,10 +160,10 @@ img {
 .intro__text h2 {
   text-align: center;
   font-weight: 800;
-  font-size: 32px;
-  line-height: 36px;
+  font-size: 2rem;
+  line-height: 2.25rem;
   text-transform: uppercase;
-  margin: 0 60px 24px 60px;
+  margin: 0 3.75rem 1.5rem 3.75rem;
   color: #162441;
 }
 
@@ -173,18 +173,18 @@ img {
   line-height: 1.625rem;
   color: #7b8bad;
   text-align: center;
-  margin: 0 24px 111px 24px;
+  margin: 0 1.5rem 6.9375rem 1.5rem;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 47.9375rem) {
   .intro__images-mobile {
     display: flex;
     margin-bottom: 75px;
   }
   .intro__image-left {
     background-image: linear-gradient(to bottom, rgba(242, 104, 24, 0.7), rgba(242, 104, 24, 0.7)), url(/assets/mobile/image-phone-and-keyboard.jpg);
-    width: 129px;
-    height: 193px;
+    width: 8.0625rem;
+    height: 12.0625rem;
     background-repeat: no-repeat;
     background-size: cover;
     height: 12.0625rem;
@@ -194,8 +194,8 @@ img {
   }
   .intro__image-right {
     background-image: url(/assets/mobile/image-glass-and-keyboard.jpg);
-    width: 220px;
-    height: 193px;
+    width: 13.75rem;
+    height: 12.0625rem;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 0.9375rem;
@@ -227,7 +227,7 @@ img {
 .features__block h3 {
   font-weight: 800;
   font-size: 1.5rem;
-  line-height: 28px;
+  line-height: 1.75rem;
   text-transform: uppercase;
   color: #162441;
   margin: 3rem 3.4375rem 1.5rem 3.4375rem;
@@ -238,7 +238,7 @@ img {
   font-weight: 400;
   line-height: 1.625rem;
   color: #7b8bad;
-  margin: 0 0 64px 0;
+  margin: 0 0 4rem 0;
 }
 
 .features__icon {
@@ -246,9 +246,9 @@ img {
   justify-content: center;
   align-items: center;
   background-color: #f26818;
-  width: 65px;
-  height: 65px;
-  border-radius: 16px;
+  width: 4.0625rem;
+  height: 4.0625rem;
+  border-radius: 1rem;
 }
 
 .footer {
@@ -256,8 +256,8 @@ img {
   font-weight: 400;
   line-height: 1.625rem;
   color: #7b8bad;
-  line-height: 26px;
-  margin: 32px 0 3.125rem 3.1875rem;
+  line-height: 1.625rem;
+  margin: 2rem 0 3.125rem 3.1875rem;
 }
 
 .footer span {
