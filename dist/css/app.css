@@ -282,10 +282,12 @@ img {
   }
   .intro__text h2 {
     text-align: left;
+    margin-left: 39px;
     margin-bottom: 0;
   }
   .intro__text p {
     text-align: left;
+    align-self: center;
     margin-bottom: 0;
   }
 }
@@ -351,6 +353,28 @@ img {
   }
   .features__block p {
     width: 281px;
+    text-align: left;
+    margin: 0 0 24px 0;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .features {
+    max-width: 1440px;
+    display: flex;
+  }
+  .features__block {
+    max-width: 255px;
+    margin: 0 30px 72px 0;
+    align-items: flex-start;
+  }
+  .features__block h3 {
+    width: 215px;
+    text-align: left;
+    margin: 40px 0 24px 0;
+  }
+  .features__block p {
+    width: 255px;
     text-align: left;
     margin: 0 0 24px 0;
   }

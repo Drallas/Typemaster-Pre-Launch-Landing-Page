@@ -91,16 +91,21 @@
 
     &__text h2 {
       text-align: left;
+      margin-left: 39px;
       margin-bottom: 0;
     }
 
     &__text p {
       text-align: left;
+      align-self: center;
       margin-bottom: 0;
     }
 
     // Desktop version
     @media screen and (min-width: 992px) {
+
+
+      
     }
   }
 }

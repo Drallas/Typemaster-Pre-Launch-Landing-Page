@@ -42,7 +42,6 @@
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
-    
 
     &__block {
       max-width: 281px;
@@ -62,4 +61,30 @@
       margin: 0 0 24px 0;
     }
   }
+
+  @media screen and (min-width: 992px) {
+    max-width: 1440px;
+    display: flex;
+
+    &__block {
+      max-width: 255px;
+      margin: 0 30px 72px 0;
+      align-items: flex-start;
+    }
+
+    &__block h3 {
+      width: 215px;
+      text-align: left;
+      margin: 40px 0 24px 0;
+    }
+
+    &__block p {
+      width: 255px;
+      text-align: left;
+      margin: 0 0 24px 0;
+    }
+
+  }
 }
+
+// Desktop version
