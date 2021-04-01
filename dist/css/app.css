@@ -36,6 +36,7 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   margin: 0;
   padding: 0;
   font-weight: normal;
+  overflow-x: hidden;
 }
 
 ol, ul {
@@ -71,9 +72,9 @@ img {
 .header {
   display: flex;
   justify-content: space-around;
-  max-width: 400px;
+  max-width: 21.875rem;
   text-align: center;
-  margin: 23px 24px 4rem 24px;
+  margin: 1.4375rem auto 4rem auto;
 }
 
 .header__logo {
@@ -83,7 +84,7 @@ img {
 .header__button {
   background-color: #e8eff2;
   color: #162441;
-  margin-left: 136px;
+  margin-left: 8.5rem;
 }
 
 .header__button:hover {
@@ -91,17 +92,24 @@ img {
   color: white;
 }
 
-@media screen and (min-width: 768px) and (max-width: 991px) {
+@media screen and (min-width: 48rem) and (max-width: 75.625rem) {
   .header {
     justify-content: space-between;
-    max-width: 800px;
-    margin: 39px 40px 62px 39px;
+    max-width: 45.3125rem;
+    margin: 2.4375rem auto 3.875rem auto;
+  }
+  .header__button {
+    width: 10.9375rem;
+    height: 3.625rem;
   }
 }
 
-.header__button {
-  width: 10.9375rem;
-  height: 3.625rem;
+@media screen and (min-width: 75.625rem) {
+  .header {
+    max-width: 69.375rem;
+    justify-content: space-between;
+    margin: 3.4375rem auto 5.1875rem auto;
+  }
 }
 
 .cta {
@@ -170,11 +178,11 @@ img {
   margin-bottom: 1.5rem;
 }
 
-@media screen and (min-width: 768px) and (max-width: 991px) {
+@media screen and (min-width: 48rem) and (max-width: 75.625rem) {
   .cta {
     flex-direction: row;
     max-width: 50rem;
-    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
   }
   .cta__intro {
     align-self: center;
@@ -202,8 +210,50 @@ img {
   }
 }
 
+@media screen and (min-width: 75.625rem) {
+  .cta {
+    flex-direction: row;
+    max-width: 90rem;
+  }
+  .cta__intro {
+    max-width: 27.8125rem;
+    margin: 4.6875rem 7.8125rem 4.6875rem 10.3125rem;
+  }
+  .cta__footer {
+    max-width: 27.8125rem;
+    justify-content: left;
+  }
+  .cta__button {
+    width: 10.9375rem;
+    height: 3.625rem;
+  }
+  .cta__image {
+    background-image: url(/assets/desktop/image-keyboard.jpg);
+    width: 33.75rem;
+    height: 30rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 10.3125rem;
+    margin-bottom: 1.875rem;
+  }
+  .cta__image::after {
+    content: " ";
+    position: absolute;
+    background-image: url(/assets/shared/pattern-square.svg);
+    width: 15.9375rem;
+    height: 14.75rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0.9375rem;
+    margin-bottom: 15.25rem;
+    margin-left: 1.875rem;
+    right: -7.5rem;
+    z-index: -1;
+  }
+}
+
 .intro {
-  max-width: 400px;
+  max-width: 25rem;
   margin: 0 auto 0 auto;
 }
 
@@ -229,7 +279,7 @@ img {
 @media screen and (max-width: 47.9375rem) {
   .intro__images {
     display: flex;
-    margin-bottom: 75px;
+    margin-bottom: 4.6875rem;
   }
   .intro__image-left {
     background-image: linear-gradient(to bottom, rgba(242, 104, 24, 0.7), rgba(242, 104, 24, 0.7)), url(/assets/mobile/image-phone-and-keyboard.jpg);
@@ -251,28 +301,28 @@ img {
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 991px) {
+@media screen and (min-width: 48rem) and (max-width: 75.625rem) {
   .intro {
     max-width: 50rem;
-    margin-bottom: 142px;
+    margin-bottom: 8.875rem;
   }
   .intro__images {
     display: flex;
-    margin-bottom: 72px;
+    margin-bottom: 4.5rem;
   }
   .intro__image-left {
     background-image: linear-gradient(to bottom, rgba(242, 104, 24, 0.7), rgba(242, 104, 24, 0.7)), url(/assets/tablet/image-phone-and-keyboard.jpg);
-    width: 214px;
-    height: 320px;
+    width: 13.375rem;
+    height: 20rem;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 0.9375rem;
-    margin: 0 30px 0 39px;
+    margin: 0 1.875rem 0 2.4375rem;
   }
   .intro__image-right {
     background-image: url(/assets/tablet/image-glass-and-keyboard.jpg);
-    width: 440px;
-    height: 320px;
+    width: 27.5rem;
+    height: 20rem;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 0.9375rem;
@@ -282,7 +332,7 @@ img {
   }
   .intro__text h2 {
     text-align: left;
-    margin-left: 39px;
+    margin-left: 2.4375rem;
     margin-bottom: 0;
   }
   .intro__text p {
@@ -292,8 +342,65 @@ img {
   }
 }
 
+@media screen and (min-width: 75.625rem) {
+  .intro {
+    max-width: 90rem;
+    display: flex;
+  }
+  .intro__images {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 4.5rem;
+  }
+  .intro__image-left {
+    background-image: linear-gradient(to bottom, rgba(242, 104, 24, 0.7), rgba(242, 104, 24, 0.7)), url(/assets/desktop/image-phone-and-keyboard.jpg);
+    width: 15.9375rem;
+    height: 30rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    margin: 0 30px 0 2.4375rem;
+  }
+  .intro__image-left:before {
+    content: " ";
+    position: absolute;
+    background-image: url(/assets/shared/pattern-square.svg);
+    width: 15.9375rem;
+    height: 14.75rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0.9375rem;
+    margin-top: 15.25rem;
+    margin-right: 1.875rem;
+    left: -8.125rem;
+    z-index: -1;
+  }
+  .intro__image-right {
+    background-image: url(/assets/desktop/image-glass-and-keyboard.jpg);
+    width: 27.8125rem;
+    height: 30rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0.9375rem;
+    justify-items: end;
+  }
+  .intro__text {
+    margin: 8.875rem 0rem 0 0px;
+  }
+  .intro__text h2 {
+    max-width: 15.9375rem;
+    text-align: left;
+    margin-left: 7.8125rem;
+  }
+  .intro__text p {
+    max-width: 15.9375rem;
+    text-align: left;
+    margin-left: 7.8125rem;
+  }
+}
+
 .features {
-  max-width: 400px;
+  max-width: 25rem;
   margin: 0 auto 0 auto;
 }
 
@@ -332,7 +439,7 @@ img {
   border-radius: 1rem;
 }
 
-@media screen and (min-width: 768px) and (max-width: 991px) {
+@media screen and (min-width: 48rem) and (max-width: 75.625rem) {
   .features {
     max-width: 50rem;
     display: flex;
@@ -342,53 +449,53 @@ img {
     margin-right: auto;
   }
   .features__block {
-    max-width: 281px;
-    margin: 0 69px 72px 0;
+    max-width: 17.5625rem;
+    margin: 0 4.3125rem 4.5rem 0;
     align-items: flex-start;
   }
   .features__block h3 {
-    width: 215px;
+    width: 13.4375rem;
     text-align: left;
-    margin: 40px 0 24px 0;
+    margin: 2.5rem 0 1.5rem 0;
   }
   .features__block p {
-    width: 281px;
+    width: 17.5625rem;
     text-align: left;
-    margin: 0 0 24px 0;
+    margin: 0 0 1.5rem 0;
   }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 75.625rem) {
   .features {
-    max-width: 1440px;
+    max-width: 90rem;
     display: flex;
   }
   .features__block {
-    max-width: 255px;
-    margin: 0 30px 72px 0;
+    max-width: 15.9375rem;
+    margin: 0 1.875rem 4.5rem 0;
     align-items: flex-start;
   }
   .features__block h3 {
-    width: 215px;
+    width: 13.4375rem;
     text-align: left;
-    margin: 40px 0 24px 0;
+    margin: 2.5rem 0 1.5rem 0;
   }
   .features__block p {
-    width: 255px;
+    width: 15.9375rem;
     text-align: left;
-    margin: 0 0 24px 0;
+    margin: 0 0 1.5rem 0;
   }
 }
 
 .footer {
-  max-width: 400px;
+  max-width: 23.4375rem;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.625rem;
   color: #7b8bad;
   line-height: 1.625rem;
   text-align: center;
-  margin: 32px auto 50px auto;
+  margin: 2rem auto 3.125rem auto;
 }
 
 .footer span {

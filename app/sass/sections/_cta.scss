@@ -62,10 +62,10 @@
   }
 
   // Tablet Version
-  @media screen and (min-width: 768px) and (max-width: 991px) {
+  @media screen and (min-width: 48rem) and (max-width: 75.625rem) {
     flex-direction: row;
     max-width: 50rem;
-    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
 
     &__intro {
       align-self: center;
@@ -83,7 +83,7 @@
     }
 
     &__button {
-      width: 10.9375rem ;
+      width: 10.9375rem;
       height: 3.625rem;
     }
 
@@ -94,6 +94,53 @@
       background-repeat: no-repeat;
       background-size: cover;
       margin-bottom: 0;
+    }
+  }
+
+  // Desktop version
+  @media screen and (min-width: 75.625rem) {
+    flex-direction: row;
+    max-width: 90rem;
+
+    &__intro {
+      max-width: 27.8125rem;
+      margin: 4.6875rem 7.8125rem 4.6875rem 10.3125rem;
+
+    }
+
+    &__footer {
+      max-width: 27.8125rem;
+      justify-content: left;
+    }
+
+    &__button {
+      width: 10.9375rem;
+      height: 3.625rem;
+    }
+
+    &__image {
+      background-image: url(/assets/desktop/image-keyboard.jpg);
+      width: 33.75rem;
+      height: 30rem;
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin-right: 10.3125rem;
+      margin-bottom: 1.875rem;
+    }
+
+    &__image::after {
+      content: " ";
+      position: absolute;
+      background-image: url(/assets/shared/pattern-square.svg);
+      width: 15.9375rem;
+      height: 14.75rem;
+      background-repeat: no-repeat;
+      background-size: cover;
+      border-radius: 0.9375rem;
+      margin-bottom: 15.25rem;
+      margin-left: 1.875rem;
+      right: -7.5rem;
+      z-index: -1;
     }
   }
 }
