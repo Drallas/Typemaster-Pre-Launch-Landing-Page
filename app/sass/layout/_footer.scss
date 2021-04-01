@@ -1,7 +1,11 @@
 .footer {
+
+    max-width: 327px;
     @include paragraph;
     line-height: 1.625rem;
-    margin: 2rem 0 3.125rem 3.1875rem;
+    text-align: center;
+    margin: 32px auto 50px auto;
+   
 }
 
 .footer span {

@@ -1,8 +1,11 @@
 .header {
   display: flex;
-  justify-content: space-between;
-  margin: 1.4375rem 1.5rem 4rem 1.5rem ;
-  
+  justify-content: space-around;
+  max-width: 400px;
+  text-align: center;
+  margin: 23px auto 4rem auto ;
+
+
   &__logo {
     align-self: center;
   }
@@ -11,6 +14,7 @@
     @extend %button-mobile;
     background-color: $light-blue;
     color: $dark-blue;
+    margin-left: 136px;
   }
 
   &__button:hover {

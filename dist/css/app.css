@@ -70,8 +70,10 @@ img {
 
 .header {
   display: flex;
-  justify-content: space-between;
-  margin: 1.4375rem 1.5rem 4rem 1.5rem;
+  justify-content: space-around;
+  max-width: 400px;
+  text-align: center;
+  margin: 23px auto 4rem auto;
 }
 
 .header__logo {
@@ -81,11 +83,19 @@ img {
 .header__button {
   background-color: #e8eff2;
   color: #162441;
+  margin-left: 136px;
 }
 
 .header__button:hover {
   background-color: #162441;
   color: white;
+}
+
+.cta {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto 0 auto;
+  max-width: 400px;
 }
 
 .cta__intro h1 {
@@ -108,6 +118,7 @@ img {
 
 .cta__footer {
   display: flex;
+  min-width: 310px;
   justify-content: space-around;
   align-items: center;
   margin: 0 2.5625rem 4rem 1.5rem;
@@ -136,21 +147,20 @@ img {
   display: none;
 }
 
-.cta__keyboard-mobile {
-  visibility: visible;
+.cta .cta__image {
+  background-image: url(/assets/mobile/image-keyboard.jpg);
+  width: 372px;
+  height: 331px;
+  background-repeat: no-repeat;
+  background-size: cover;
   border-radius: 0.9375rem;
   margin-left: 1.5rem;
   margin-bottom: 1.5rem;
 }
 
-.cta__keyboard-tablet {
-  visibility: hidden;
-  display: none;
-}
-
-.cta__keyboard-desktop {
-  visibility: hidden;
-  display: none;
+.intro {
+  max-width: 400px;
+  margin: 0 auto 0 auto;
 }
 
 .intro__images-mobile {
@@ -216,6 +226,11 @@ img {
   }
 }
 
+.features {
+  max-width: 400px;
+  margin: 0 auto 0 auto;
+}
+
 .features__block {
   display: flex;
   flex-direction: column;
@@ -252,12 +267,14 @@ img {
 }
 
 .footer {
+  max-width: 327px;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.625rem;
   color: #7b8bad;
   line-height: 1.625rem;
-  margin: 2rem 0 3.125rem 3.1875rem;
+  text-align: center;
+  margin: 32px auto 50px auto;
 }
 
 .footer span {

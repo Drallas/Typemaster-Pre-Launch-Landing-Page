@@ -1,4 +1,11 @@
 .cta {
+
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto 0 auto ;
+  max-width: 400px;
+  
+
   &__intro h1 {
     font-size: 3rem;
     font-weight: 800;
@@ -10,12 +17,13 @@
   }
 
   &__para {
-    @include paragraph
+    @include paragraph;
     margin: 0 1.5rem 2rem 1.5rem;
   }
 
   &__footer {
     display: flex;
+    min-width: 310px;
     justify-content: space-around;
     align-items: center;
     margin: 0 2.5625rem 4rem 1.5rem;
@@ -46,21 +54,19 @@
     display: none;
   }
 
-  // Keyboard Image
-  &__keyboard-mobile {
-    visibility: visible;
+  .cta__image {
+    background-image: url(/assets/mobile/image-keyboard.jpg);
+    width: 372px;
+    height: 331px;
+    background-repeat: no-repeat;
+    background-size: cover ;
     border-radius: 0.9375rem;
     margin-left: 1.5rem;
     margin-bottom: 1.5rem;
   }
 
-  &__keyboard-tablet {
-    visibility: hidden;
-    display: none;
-  }
-
-  &__keyboard-desktop {
-    visibility: hidden;
-    display: none;
+  // Keyboard Image
+  &__keyboard-mobile {
+    
   }
 }
