@@ -4,6 +4,21 @@
     display: none;
   }
 
+  &__text h2 {
+    text-align: center;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 36px;
+    text-transform: uppercase;
+    margin: 0 60px 24px 60px;
+    color: $dark-blue;
+  }
+
+  &__text p {
+    @include paragraph;
+    text-align: center;
+    margin: 0 24px 111px 24px;
+  }
 
   // Mobile needs to be behind @media too.
   @media screen and (max-width: 767px) {

@@ -10,10 +10,7 @@
   }
 
   &__para {
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.625rem;
-    color: $medium-blue;
+    @include paragraph
     margin: 0 1.5rem 2rem 1.5rem;
   }
 

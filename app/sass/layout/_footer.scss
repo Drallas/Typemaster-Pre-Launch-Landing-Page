@@ -1,3 +1,9 @@
 .footer {
-    margin: 6rem 0 0 3.1875rem;
+    @include paragraph;
+    line-height: 26px;
+    margin: 32px 0 3.125rem 3.1875rem;
+}
+
+.footer span {
+    font-weight: 500;
 }
