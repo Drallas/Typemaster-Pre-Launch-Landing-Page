@@ -17,7 +17,7 @@ This is a solution to the [Typemaster Pre Launch challenge on Frontend Mentor](h
 
 ## Overview
 
-This is the first project where i'm using sass ass css preprocessor.
+This is the first project where i'm using sass ass css preprocessor, i'm sure it could have been done a bit more efficient. I'm still learning and happy 
 
 ### The challenge
 
@@ -27,21 +27,19 @@ Users should be able to:
 
 ### Screenshot
 
-![](images/screenshot.png)
+![](assets/screenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub](https://github.com/Drallas/Typemaster-Pre-Launch-Landing-Page/)
+- Live Site URL: [GitHub Pages](https://drallas.github.io/Typemaster-Pre-Launch-Landing-Page/)
 
 ## My process
 
 ### Built with
 
 - Semantic HTML5 markup
-- CSS
-- JavaScript
-- Add more...
+- CSS / SASS / BEM
 
 ### What I learned
 
@@ -65,6 +63,4 @@ Use this section to outline areas that you want to continue focusing on in futur
 - Frontend Mentor - [@Drallas](https://www.frontendmentor.io/profile/Drallas)
 - Dev.to - [@Drallas](https://dev.to/drallas)
 
-## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.

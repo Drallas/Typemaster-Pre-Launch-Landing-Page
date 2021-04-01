@@ -51,7 +51,7 @@
   }
 
   &__image {
-    background-image: url(/assets/mobile/image-keyboard.jpg);
+    background-image: url(../../assets/mobile/image-keyboard.jpg);
     width: 23.25rem;
     height: 20.6875rem;
     background-repeat: no-repeat;
@@ -88,7 +88,7 @@
     }
 
     &__image {
-      background-image: url(/assets/tablet/image-keyboard.jpg);
+      background-image: url(../../assets/tablet/image-keyboard.jpg);
       width: 29.875rem;
       height: 26.5625rem;
       background-repeat: no-repeat;
@@ -119,7 +119,7 @@
     }
 
     &__image {
-      background-image: url(/assets/desktop/image-keyboard.jpg);
+      background-image: url(../../assets/desktop/image-keyboard.jpg);
       width: 33.75rem;
       height: 30rem;
       background-repeat: no-repeat;
@@ -131,7 +131,7 @@
     &__image::after {
       content: " ";
       position: absolute;
-      background-image: url(/assets/shared/pattern-square.svg);
+      background-image: url(../../assets/shared/pattern-square.svg);
       width: 15.9375rem;
       height: 14.75rem;
       background-repeat: no-repeat;
