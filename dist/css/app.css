@@ -2,6 +2,7 @@
 body {
   font-family: "Barlow", sans-serif;
   background-color: white;
+  overflow-x: hidden;
 }
 
 .grid-container {
@@ -36,7 +37,6 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   margin: 0;
   padding: 0;
   font-weight: normal;
-  overflow-x: hidden;
 }
 
 ol, ul {
@@ -223,6 +223,10 @@ img {
     max-width: 27.8125rem;
     margin: 4.6875rem 7.8125rem 4.6875rem 10.3125rem;
   }
+  .cta__intro h1 {
+    font-size: 56px;
+    line-height: 56px;
+  }
   .cta__footer {
     max-width: 27.8125rem;
     justify-content: left;
@@ -354,7 +358,7 @@ img {
   .intro__images {
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: 4.5rem;
+    margin-bottom: 10.5rem;
   }
   .intro__image-left {
     background-image: linear-gradient(to bottom, rgba(242, 104, 24, 0.7), rgba(242, 104, 24, 0.7)), url(../../assets/desktop/image-phone-and-keyboard.jpg);
