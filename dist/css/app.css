@@ -226,8 +226,7 @@ img {
     background-size: cover;
     border-radius: 0.9375rem;
     margin-bottom: 15.25rem;
-    margin-left: 1.875rem;
-    right: -7.5rem;
+    right: -17.5rem;
     z-index: -1;
   }
 }
@@ -364,7 +363,6 @@ img {
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 0.9375rem;
-    justify-items: end;
   }
   .intro__text {
     margin: 8.875rem 0rem 0 0px;
