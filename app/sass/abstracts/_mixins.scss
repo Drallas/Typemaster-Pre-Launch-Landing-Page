@@ -1,3 +1,5 @@
+@use '../abstracts/variables' as *;
+
 @mixin paragraph {
   font-size: 1rem;
   font-weight: 400;

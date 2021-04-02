@@ -1,3 +1,6 @@
+@use '../abstracts/variables' as *;
+@use '../abstracts/mixins' as *;
+
 .features {
   max-width: 25rem;
   margin: 0 auto 0 auto;

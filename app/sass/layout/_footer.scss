@@ -1,3 +1,6 @@
+@use '../abstracts/mixins' as *;
+
+
 .footer {
     max-width: 23.4375rem;
     @include paragraph;

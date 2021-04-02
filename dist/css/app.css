@@ -29,7 +29,7 @@ img {
   height: auto;
 }
 
-.header__button, .cta__button {
+.cta__button, .header__button {
   align-self: center;
   cursor: pointer;
   border: none;
@@ -44,7 +44,7 @@ img {
   padding: 1.625rem 1rem;
 }
 
-.header__button, .cta__button {
+.cta__button, .header__button {
   width: 9.4375rem;
   height: 3rem;
   padding: 0.6875rem 0.8438rem;
@@ -57,22 +57,18 @@ img {
   text-align: center;
   margin: 1.4375rem auto 4rem auto;
 }
-
 .header__logo {
   align-self: center;
 }
-
 .header__button {
   background-color: #e8eff2;
   color: #162441;
   margin-left: 8.5rem;
 }
-
 .header__button:hover {
   background-color: #162441;
   color: white;
 }
-
 @media screen and (min-width: 48rem) and (max-width: 75.625rem) {
   .header {
     justify-content: space-between;
@@ -84,7 +80,6 @@ img {
     height: 3.625rem;
   }
 }
-
 @media screen and (min-width: 75.625rem) {
   .header {
     max-width: 69.375rem;
@@ -103,11 +98,9 @@ img {
   margin: 0 auto 0 auto;
   max-width: 25rem;
 }
-
 .cta__intro {
   margin-left: 24px;
 }
-
 .cta__intro h1 {
   font-size: 3rem;
   font-weight: 800;
@@ -117,7 +110,6 @@ img {
   text-align: left;
   margin: 0 1.5rem 2rem 0;
 }
-
 .cta__para {
   font-size: 1rem;
   font-weight: 400;
@@ -125,7 +117,6 @@ img {
   color: #7b8bad;
   margin: 0 1.5rem 2rem 0rem;
 }
-
 .cta__footer {
   display: flex;
   min-width: 19.375rem;
@@ -133,7 +124,6 @@ img {
   align-items: center;
   margin: 0 2.5625rem 4rem 0rem;
 }
-
 .cta__footer p {
   font-size: 1rem;
   font-weight: 500;
@@ -142,16 +132,13 @@ img {
   text-transform: uppercase;
   margin-left: 2rem;
 }
-
 .cta__button {
   background-color: #f26818;
   color: white;
 }
-
 .cta__button:hover {
   background-color: #ff9b61;
 }
-
 .cta__image {
   background-image: url(../../assets/mobile/image-keyboard.jpg);
   width: 23.25rem;
@@ -162,7 +149,6 @@ img {
   margin-left: 1.5rem;
   margin-bottom: 1.5rem;
 }
-
 @media screen and (min-width: 48rem) and (max-width: 75.625rem) {
   .cta {
     flex-direction: row;
@@ -194,7 +180,6 @@ img {
     margin-bottom: 0;
   }
 }
-
 @media screen and (min-width: 75.625rem) {
   .cta {
     flex-direction: row;
@@ -251,7 +236,6 @@ img {
   max-width: 25rem;
   margin: 0 auto 0 auto;
 }
-
 .intro__text h2 {
   text-align: center;
   font-weight: 800;
@@ -261,7 +245,6 @@ img {
   margin: 0 3.75rem 1.5rem 3.75rem;
   color: #162441;
 }
-
 .intro__text p {
   font-size: 1rem;
   font-weight: 400;
@@ -270,7 +253,6 @@ img {
   text-align: center;
   margin: 0 1.5rem 6.9375rem 1.5rem;
 }
-
 @media screen and (max-width: 47.9375rem) {
   .intro__images {
     display: flex;
@@ -295,7 +277,6 @@ img {
     border-radius: 0.9375rem;
   }
 }
-
 @media screen and (min-width: 48rem) and (max-width: 75.625rem) {
   .intro {
     max-width: 50rem;
@@ -336,7 +317,6 @@ img {
     margin-bottom: 0;
   }
 }
-
 @media screen and (min-width: 75.625rem) {
   .intro {
     max-width: 90rem;
@@ -398,7 +378,6 @@ img {
   max-width: 25rem;
   margin: 0 auto 0 auto;
 }
-
 .features__block {
   display: flex;
   flex-direction: column;
@@ -406,7 +385,6 @@ img {
   text-align: center;
   margin: 0 1.5rem;
 }
-
 .features__block h3 {
   font-weight: 800;
   font-size: 1.5rem;
@@ -415,7 +393,6 @@ img {
   color: #162441;
   margin: 3rem 3.4375rem 1.5rem 3.4375rem;
 }
-
 .features__block p {
   font-size: 1rem;
   font-weight: 400;
@@ -423,7 +400,6 @@ img {
   color: #7b8bad;
   margin: 0 0 4rem 0;
 }
-
 .features__icon {
   display: flex;
   justify-content: center;
@@ -433,7 +409,6 @@ img {
   height: 4.0625rem;
   border-radius: 1rem;
 }
-
 @media screen and (min-width: 48rem) and (max-width: 75.625rem) {
   .features {
     max-width: 50rem;
@@ -459,7 +434,6 @@ img {
     margin: 0 0 1.5rem 0;
   }
 }
-
 @media screen and (min-width: 75.625rem) {
   .features {
     max-width: 90rem;
