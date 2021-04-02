@@ -29,12 +29,9 @@
     }
 
     &__image-left {
-      background-image: linear-gradient(
-          to bottom,
-          hsla(22, 89%, 52%, 0.7),
-          hsla(22, 89%, 52%, 0.7)
-        ),
-        url(../../assets/mobile/image-phone-and-keyboard.jpg);
+      background-image: url(../../assets/mobile/image-phone-and-keyboard.jpg);
+      background-color: hsla(22, 89%, 52%, 1);
+      background-blend-mode: multiply ;
       width: 8.0625rem;
       height: 12.0625rem;
       background-repeat: no-repeat;
@@ -65,12 +62,9 @@
     }
 
     &__image-left {
-      background-image: linear-gradient(
-          to bottom,
-          hsla(22, 89%, 52%, 0.7),
-          hsla(22, 89%, 52%, 0.7)
-        ),
-        url(../../assets/tablet/image-phone-and-keyboard.jpg);
+      background-image: url(../../assets/tablet/image-phone-and-keyboard.jpg);
+      background-color: hsla(22, 89%, 52%, 1);
+      background-blend-mode: multiply ;
       width: 13.375rem;
       height: 20rem;
       background-repeat: no-repeat;
@@ -117,12 +111,9 @@
     }
 
     &__image-left {
-      background-image: linear-gradient(
-          to bottom,
-          hsla(22, 89%, 52%, 0.7),
-          hsla(22, 89%, 52%, 0.7)
-        ),
-        url(../../assets/desktop/image-phone-and-keyboard.jpg);
+      background-image: url(../../assets/desktop/image-phone-and-keyboard.jpg);
+      background-color: hsla(22, 89%, 52%, 1);
+      background-blend-mode: multiply ;
       width: 15.9375rem;
       height: 30rem;
       background-repeat: no-repeat;
