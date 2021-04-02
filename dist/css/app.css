@@ -325,6 +325,7 @@ img {
   .intro {
     max-width: 90rem;
     display: flex;
+    justify-content: center;
   }
   .intro__images {
     display: flex;
