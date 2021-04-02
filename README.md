@@ -20,6 +20,8 @@ This is the first project where i'm using sass css preprocessor, i'm sure it cou
 
 ### The challenge
 
+Coding Time : too much (scared to lookup stats)
+
 Users should be able to:
 
 - View the optimal layout for the site depending on their device's screen size.
