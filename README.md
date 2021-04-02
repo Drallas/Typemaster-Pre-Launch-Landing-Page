@@ -44,7 +44,19 @@ Users should be able to:
 
 - Preparing the build and drawing up a small plan of attack is very helpful building a frondend design.
 - Starting with the mobile and making sure it's good; before continuing with the other layouts is an efficient workflow.
-- SASS is usefull but it requires some time to get used to it and even more to utilise most of the features. 
+- SASS is usefull but it requires some time to get used to it and even more to utilise most of the features.
+
+Receiving feedback I learned that SASS @import is depreciated and @use should be used. I managed to make he switch; updating to a mainted SASS Compiler for VSCode and rafactoring the code to use @use.  
+
+The Orange background overlay blend initiall was a bit off, found out that ```background-blend-mode``` should be used instea of a linear gradient. 
+
+```css
+background-image: url(../../assets/mobile/image-phone-and-keyboard.jpg);
+background-color: hsla(22, 89%, 52%, 1);
+background-blend-mode: multiply ;
+```
+
+Happy I could refactor the code and make the solution more solid!
 
 ### Continued development
 
